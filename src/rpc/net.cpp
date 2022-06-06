@@ -292,8 +292,8 @@ static RPCHelpMan addnode()
                 },
                 RPCResult{RPCResult::Type::NONE, "", ""},
                 RPCExamples{
-                    HelpExampleCli("addnode", "\"192.168.0.6:51738\" \"onetry\"")
-            + HelpExampleRpc("addnode", "\"192.168.0.6:51738\", \"onetry\"")
+                    HelpExampleCli("addnode", "\"192.168.0.6:51739\" \"onetry\"")
+            + HelpExampleRpc("addnode", "\"192.168.0.6:51739\", \"onetry\"")
                 },
         [&](const RPCHelpMan& self, const JSONRPCRequest& request) -> UniValue
 {
@@ -404,9 +404,9 @@ static RPCHelpMan disconnectnode()
                 },
                 RPCResult{RPCResult::Type::NONE, "", ""},
                 RPCExamples{
-                    HelpExampleCli("disconnectnode", "\"192.168.0.6:51738\"")
+                    HelpExampleCli("disconnectnode", "\"192.168.0.6:51739\"")
             + HelpExampleCli("disconnectnode", "\"\" 1")
-            + HelpExampleRpc("disconnectnode", "\"192.168.0.6:51738\"")
+            + HelpExampleRpc("disconnectnode", "\"192.168.0.6:51739\"")
             + HelpExampleRpc("disconnectnode", "\"\", 1")
                 },
         [&](const RPCHelpMan& self, const JSONRPCRequest& request) -> UniValue
